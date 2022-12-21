@@ -11,9 +11,12 @@
 }
 
 .video-container {
+	
 	position: relative;
 	height: 0;
 	padding-bottom: 56%;
+	border-radius:18px;
+	overflow: hidden;
 }
 
 .video-container iframe {
