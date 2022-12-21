@@ -1,25 +1,26 @@
 @charset "UTF-8";
 
-#txtSearch {
+#txtSearch{
 	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px;	
 }
 
-#txtSearch {
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
+#btnSearch{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-.video-container {
-	
+/* Questo � un commento in CSS */
+.video-container{
 	position: relative;
 	height: 0;
-	padding-bottom: 56%;
-	border-radius:18px;
+	padding-bottom:56%;
+	border-radius: 18px;
 	overflow: hidden;
+	
 }
 
-.video-container iframe {
+.video-container iframe{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -27,16 +28,24 @@
 	height: 100%;
 }
 
-.titleVideo {
+.titleVideo{
 	font-size: 1.4rem;
-	padding-top: 10px;
+    padding-top: 10px;	
 }
 
-.descvideo {
-	padding-top: 10px;
-	font-style: italic;
+.descVideo{	
+    font-style: italic;    
+    background: #efefef;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.logoFooter {
-	filter: grayscale(100%)
+.descVideo:hover {
+    background: #c3c3c3;
+}
+
+#logoFooter{
+	filter: grayscale(100%);
 }
