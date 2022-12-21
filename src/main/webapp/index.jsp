@@ -12,7 +12,7 @@
 
 </head>
 <body>
-	 ciao
+	
 	<jsp:include page="common/header.jsp" />
 	<jsp:include page="home/main.jsp" />
 	<jsp:include page="common/footer.jsp" />
