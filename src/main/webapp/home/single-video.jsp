@@ -10,7 +10,7 @@
 	</div>
 	
 	<div>
-		<i class="fa fa-music" aria-hidden="true"></i>
+		<i class="fa fa-play" aria-hidden="true"></i>
 		<b>Genere:</b> ${param.genere}
 	</div>
 	
