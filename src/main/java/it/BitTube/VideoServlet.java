@@ -31,7 +31,7 @@ public class VideoServlet extends HttpServlet {
 		//Recupero i video della playlist corrente idPlaylist
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bittube", "root","");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bittube1", "root","");
 			
 			String sql = "SELECT id_video FROM yt_playlist_manager WHERE id_playlist = ?";
 			

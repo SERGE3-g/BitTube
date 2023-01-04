@@ -28,9 +28,83 @@
 			<!-- Sezione Login [init] -->
 			<div class="col text-end">
 				<button type="button" class="btn btn-light"><i class="fa fa-user" aria-hidden="true"></i>
-				 Accedi</button>
+				 Login</button>
+				 <ul>
+      
+        <div id="login-content">
+          <form>
+            <fieldset id="inputs">
+              <input type="text"  id="username"
+                      type="email"
+                      name="Email"
+                      placeholder="Your email address"
+                      required>
+              <input  id="password"
+                      type="password"
+                      name="Password"
+                      placeholder="Password"
+                      required>
+            </fieldset>
+            <fieldset id="actions">
+              <input  type="submit"
+                      id="submit"
+                      value="Log in">
+              <label>
+                <input  type="checkbox"
+                        checked="checked">
+                Keep me signed in
+              </label>
+            </fieldset>
+          </form>
+          
+				 
 			</div>
 			<!-- Sezione Login [end] -->
+			
+			 <!--  <nav>
+    <ul>
+      <li id="login">
+        <a id="login-trigger" href="#">
+          Log in <span>▼</span>
+        </a>
+        <div id="login-content">
+          <form>
+            <fieldset id="inputs">
+              <input  id="username"
+                      type="email"
+                      name="Email"
+                      placeholder="Your email address"
+                      required>
+              <input  id="password"
+                      type="password"
+                      name="Password"
+                      placeholder="Password"
+                      required>
+            </fieldset>
+            <fieldset id="actions">
+              <input  type="submit"
+                      id="submit"
+                      value="Log in">
+              <label>
+                <input  type="checkbox"
+                        checked="checked">
+                Keep me signed in
+              </label>
+            </fieldset>
+          </form>
+        </div>
+      </li>
+      <li id="signup">
+        <a href="">Sign up FREE</a>
+      </li>
+    </ul>
+  </nav>
+			
+			
+			-->
+		
+			
+			
 			
 		  </div>
 	  </div>

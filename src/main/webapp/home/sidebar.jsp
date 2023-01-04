@@ -12,7 +12,7 @@
 <%
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	Connection con = DriverManager.getConnection(
-			"jdbc:mysql://localhost:3306/bittube","root",""
+			"jdbc:mysql://localhost:3306/bittube1","root",""
 			);
 	String sql = "SELECT id, titolo, descrizione FROM yt_playlist WHERE visibilita = 1";
 	PreparedStatement ps = con.prepareStatement(sql);	

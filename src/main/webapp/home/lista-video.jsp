@@ -6,7 +6,7 @@
 <%
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	Connection con = DriverManager.getConnection(
-			"jdbc:mysql://localhost:3306/bittube","root",""
+			"jdbc:mysql://localhost:3306/bittube1","root",""
 			);
 	String sql = "SELECT id, titolo, codice, durata, genere, descrizione, autore FROM yt_video";
 	PreparedStatement ps = con.prepareStatement(sql);	
