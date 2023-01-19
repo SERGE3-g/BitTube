@@ -8,7 +8,7 @@
 		 Home</button>
 	</div>
 	<!-- Playlist Button [end] -->
-	
+	<!--sto provando a modificare una riga-->
 <%
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	Connection con = DriverManager.getConnection(
